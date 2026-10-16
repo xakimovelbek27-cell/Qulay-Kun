@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Qulay Kun</title>
+<meta name="application-name" content="Qulay Kun">
+<meta name="theme-color" content="#6366f1">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<style>
+:root{--bg1:#eef2ff;--bg2:#fdf2f8;--card:rgba(255,255,255,.7);--tx:#1e1b3a;--mut:#6f6b8f;--bd:rgba(255,255,255,.95);--sh:0 8px 28px rgba(99,102,241,.14);--c1:#6366f1;--c2:#ec4899;--c3:#06b6d4;--c4:#f59e0b;--ok:#10b981;--track:rgba(99,102,241,.14);--a:#6366f1;--b:#ec4899;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px)}
+@media (prefers-color-scheme:dark){:root{--bg1:#0d0b21;--bg2:#1c1038;--card:rgba(40,34,80,.62);--tx:#f1f0ff;--mut:#a29fc6;--bd:rgba(255,255,255,.08);--sh:0 8px 28px rgba(0,0,0,.35);--track:rgba(255,255,255,.1)}}
+html[data-theme="light"]{--bg1:#eef2ff;--bg2:#fdf2f8;--card:rgba(255,255,255,.7);--tx:#1e1b3a;--mut:#6f6b8f;--bd:rgba(255,255,255,.95);--sh:0 8px 28px rgba(99,102,241,.14);--track:rgba(99,102,241,.14)}
+html[data-theme="dark"]{--bg1:#0d0b21;--bg2:#1c1038;--card:rgba(40,34,80,.62);--tx:#f1f0ff;--mut:#a29fc6;--bd:rgba(255,255,255,.08);--sh:0 8px 28px rgba(0,0,0,.35);--track:rgba(255,255,255,.1)}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;margin:0}
+body{background:linear-gradient(160deg,var(--bg1),var(--bg2));background-attachment:fixed;color:var(--tx);font:16px/1.4 ui-rounded,"SF Pro Rounded",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;display:flex;flex-direction:column;overflow:hidden}
+body::before,body::after{content:"";position:fixed;width:300px;height:300px;border-radius:50%;filter:blur(70px);opacity:.45;z-index:0;pointer-events:none;animation:fl 12s ease-in-out infinite alternate}
+body::before{background:var(--a);top:-80px;left:-80px}
+body::after{background:var(--b);bottom:-90px;right:-80px;animation-delay:-6s}
+@keyframes fl{to{transform:translate(50px,60px) scale(1.2)}}
+main{flex:1;overflow-y:auto;padding:18px 16px 120px;max-width:600px;width:100%;margin:0 auto;position:relative;z-index:1}
+main.an>*{animation:up .45s both}main.an>*:nth-child(2){animation-delay:.05s}main.an>*:nth-child(3){animation-delay:.1s}main.an>*:nth-child(4){animation-delay:.15s}
+@keyframes up{from{opacity:0;transform:translateY(14px)}}
+h1{margin:0;font-size:30px;font-weight:800;background:linear-gradient(135deg,var(--a),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}
+h2{margin:0 0 10px;font-size:18px}
+.sub{color:var(--mut);margin:2px 0 18px}
+.card{background:var(--card);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid var(--bd);box-shadow:var(--sh);border-radius:24px;padding:16px;margin-bottom:14px}
+.row{display:flex;align-items:center;gap:10px}.grow{flex:1}
+input[type=text],input[type=number],input[type=time]{width:100%;padding:14px 16px;border-radius:16px;border:1px solid var(--bd);background:var(--card);color:var(--tx);font-size:16px;outline:0;box-shadow:var(--sh)}
+input[type=text]:focus,input[type=number]:focus,input[type=time]:focus{border-color:var(--a)}
+button{font:inherit;font-weight:600;border:0;border-radius:16px;padding:12px 18px;background:linear-gradient(135deg,var(--a),var(--b));color:#fff;cursor:pointer;box-shadow:0 6px 16px rgba(99,102,241,.3);transition:transform .15s}
+button:active{transform:scale(.93)}
+button.g{background:var(--card);color:var(--tx);border:1px solid var(--bd);box-shadow:none}
+button.x{background:none;color:var(--mut);padding:6px 10px;box-shadow:none}
+.item{display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid var(--track)}
+.item:last-child{border:0}
+.chk{width:30px;height:30px;border-radius:50%;border:2.5px solid var(--a);flex:none;background:none;padding:0;color:#fff;font-size:15px;box-shadow:none}
+.chk.on{background:linear-gradient(135deg,#10b981,#06b6d4);border-color:transparent;animation:pop .35s}
+@keyframes pop{50%{transform:scale(1.35)}}
+.done{text-decoration:line-through;color:var(--mut)}
+.bar{height:12px;background:var(--track);border-radius:8px;overflow:hidden;margin-top:10px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--a),var(--b));border-radius:8px;transition:width .5s}
+.big{font-size:60px;font-weight:800;text-align:center;margin:6px 0;background:linear-gradient(135deg,var(--a),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}
+.cen{text-align:center}
+.cups{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:12px 0}
+.cup{font-size:32px;filter:grayscale(1);opacity:.3;transition:.3s}.cup.on{filter:none;opacity:1;transform:scale(1.1)}
+.rings{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
+.rc{margin:0;padding:14px 4px;text-align:center}
+.rc small{display:block;color:var(--mut)}
+.rw{position:relative;width:84px;height:84px;margin:0 auto 8px}
+.rw span{position:absolute;inset:0;display:grid;place-items:center;font-size:28px}
+.ring{--p:0;--c:var(--a);width:100%;height:100%;border-radius:50%;background:conic-gradient(var(--c) calc(var(--p)*1%),var(--track) 0);-webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 10px),#000 calc(100% - 9px));mask:radial-gradient(farthest-side,transparent calc(100% - 10px),#000 calc(100% - 9px));transition:.5s}
+.rw.xl{width:230px;height:230px;margin:10px auto 18px}
+.rw.xl .ring{-webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 14px),#000 calc(100% - 13px));mask:radial-gradient(farthest-side,transparent calc(100% - 14px),#000 calc(100% - 13px))}
+.rw.xl span{font-size:50px;font-weight:800;font-variant-numeric:tabular-nums}
+.hc{background:linear-gradient(135deg,var(--a),var(--b));color:#fff;border:0;font-size:17px;font-weight:600}
+nav{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));max-width:480px;margin:0 auto;display:flex;gap:2px;padding:6px;border-radius:28px;background:var(--card);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid var(--bd);box-shadow:0 10px 36px rgba(60,40,140,.28);z-index:5}
+nav button{flex:1;background:none;color:var(--mut);border-radius:22px;padding:8px 0;font-size:10px;box-shadow:none}
+nav button span{display:block;font-size:20px;transition:transform .25s}
+nav button.on{background:linear-gradient(135deg,var(--a),var(--b));color:#fff;box-shadow:0 6px 14px rgba(99,102,241,.35)}
+nav button.on span{transform:translateY(-2px) scale(1.15)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}.chip{padding:8px 13px;border-radius:14px;background:var(--card);color:var(--tx);border:1px solid var(--bd);box-shadow:none;font-weight:500;font-size:14px}.qty{display:flex;align-items:center;gap:6px}.qty button{padding:2px 10px;font-size:16px;border-radius:10px;box-shadow:none}.qty b{min-width:20px;text-align:center}
+.moods{display:flex;justify-content:space-between}.mo{font-size:28px;padding:6px 10px;background:none;box-shadow:none;border-radius:16px;opacity:.5}.mo.on{opacity:1;background:var(--track);transform:scale(1.15)}
+.week{display:flex;justify-content:space-between;margin-top:12px;text-align:center}.week span{font-size:22px}.week small{display:block;font-size:11px;color:var(--mut)}
+select{width:100%;padding:14px 16px;border-radius:16px;border:1px solid var(--bd);background:var(--card);color:var(--tx);font-size:15px;margin:10px 0;outline:0}
+textarea{width:100%;padding:12px;border-radius:14px;border:1px solid var(--bd);background:var(--card);color:var(--tx);font:12px monospace;outline:0}
+.hist{display:flex;gap:8px;align-items:flex-end}.hist div{flex:1;text-align:center;font-size:11px;color:var(--mut);line-height:1.3}.hist i{display:block;border-radius:8px 8px 4px 4px;background:linear-gradient(180deg,var(--a),var(--b));min-height:4px;margin-bottom:4px}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+input[type=number]{-moz-appearance:textfield;appearance:textfield}
+.ov{position:fixed;inset:0;z-index:20;background:linear-gradient(160deg,var(--bg1),var(--bg2));display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:20px;animation:up .4s}
+.bc{width:140px;height:140px;border-radius:50%;background:linear-gradient(135deg,var(--a),var(--b));animation:br 8s ease-in-out infinite;box-shadow:0 0 60px var(--a)}
+@keyframes br{0%,100%{transform:scale(.6)}50%{transform:scale(1.5)}}
+.chip.sel{background:linear-gradient(135deg,var(--a),var(--b));color:#fff}
+.ov .chips{margin-bottom:12px}.bw{position:relative;width:260px;height:260px;display:grid;place-items:center;margin-bottom:10px}.bw .bc{position:absolute;animation:none;transform:scale(.6)}.bw span{position:relative;font-size:56px;font-weight:800;color:#fff}
+.lg{display:flex;align-items:center;gap:8px;font-size:13px;margin:4px 0}.lg i{width:10px;height:10px;border-radius:3px;flex:none;margin:0}
+
+.week2{display:flex;gap:6px;margin-bottom:14px}.wd{flex:1;padding:8px 0;border-radius:16px;background:var(--card);color:var(--mut);border:1px solid var(--bd);box-shadow:none;font-size:12px;display:flex;flex-direction:column;align-items:center;gap:2px}.wd b{font-size:16px;color:var(--tx)}.wd.sel{background:linear-gradient(135deg,var(--a),var(--b));color:#fff}.wd.sel b{color:#fff}.wd.td:not(.sel){border-color:var(--a)}.wd i{width:5px;height:5px;border-radius:50%;margin:0;background:transparent}.wd i.dt{background:var(--a)}.wd.sel i.dt{background:#fff}
+.tm{font-size:12px;background:var(--track);border-radius:8px;padding:2px 7px;margin-left:6px;color:var(--a);font-weight:600}
+.toast{position:fixed;top:calc(12px + env(safe-area-inset-top,0px));left:12px;right:12px;max-width:480px;margin:0 auto;z-index:40;padding:14px 16px;border-radius:18px;background:linear-gradient(135deg,var(--a),var(--b));color:#fff;font-weight:600;box-shadow:var(--sh);animation:up .4s}
+.lk{z-index:50}.dots{display:flex;gap:14px;margin:18px 0}.dots i{width:16px;height:16px;border-radius:50%;border:2px solid var(--a);margin:0}.dots i.on{background:var(--a)}
+.kp{display:grid;grid-template-columns:repeat(3,76px);gap:14px;margin:10px 0}.kp button{height:64px;font-size:24px;border-radius:50%;padding:0}
+.shk .dots{animation:shk .4s}@keyframes shk{20%,60%{transform:translateX(-10px)}40%,80%{transform:translateX(10px)}}
+.empty{color:var(--mut);text-align:center;padding:16px}
+</style>
+</head>
+<body>
+<main id="v"></main>
+<nav id="nav"></nav>
+<script>
+const $=s=>document.querySelector(s);
+const K='kq_data_v1';
+let S={th:'auto',pin:'',snd:true,tx:[],lim:0,cat:{out:["🚌 Yo'l haqi","🍞 Non","🍽 Ovqat","🛒 Bozorlik","📱 Aloqa","💊 Dori","🏠 Kommunal","👕 Kiyim","🎁 Boshqa"],in:["💼 Oylik","💵 Qo'shimcha ish","🎁 Sovg'a","📈 Boshqa"]},bm:{},bud:0,gr:{},prof:null,gl:250,wh:{},fw:25,fb:5,fs:{},ex:[],tasks:[],shop:[],mood:{},qs:['🍞 Non','🥛 Sut','🥚 Tuxum','🍖 Go\'sht','🍎 Meva','🥔 Sabzavot','🍚 Guruch','🧼 Sovun'],water:{d:'',n:0},goal:8,habits:[]};
+try{const r=localStorage.getItem(K);if(r)S=Object.assign(S,JSON.parse(r))}catch(e){}
+const save=()=>{try{localStorage.setItem(K,JSON.stringify(S))}catch(e){}};
+const day=(o=0)=>{const d=new Date();d.setDate(d.getDate()-o);return d.toLocaleDateString('sv')};
+let T=day();
+if(S.water.d!==T)S.water={d:T,n:0};
+if(S.ex&&S.ex.length){S.ex.forEach(x=>S.tx.push({k:'out',a:x.a,c:'🛒 Bozorlik',n:'Bozorlik',d:x.d}));S.ex=[]}
+S.tasks=S.tasks.map(t=>t.days?t:{id:Date.now()+Math.floor(Math.random()*1e6),t:t.t,days:[],date:T,time:'',done:t.d?{[T]:true}:{},from:T});
+const esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const tabs=[['home','🏠','Bugun'],['tasks','✅','Vazifa'],['shop','🛒','Bozorlik'],['fin','💰','Moliya'],['water','💧','Suv'],['habits','🔥','Odat'],['focus','⏱️','Fokus']];
+let lastTab='',tab='home',qEdit=false,wEdit=false,tipO=0;const MO=['😞','😕','😐','🙂','😄'];
+let tm={mode:'w',left:S.fw*60,run:false,id:null,end:0,msg:''};
+
+function streak(h){let n=0,o=h.days.includes(T)?0:1;while(h.days.includes(day(o))){n++;o++}return n}
+function hello(){const h=new Date().getHours();return h<5?'Xayrli tun':h<12?'Xayrli tong':h<18?'Xayrli kun':'Xayrli kech'}
+function pct(a,b){return b?Math.min(100,Math.round(a/b*100)):0}
+
+function render(){
+  $('#nav').innerHTML=tabs.map(t=>`<button class="${t[0]===tab?'on':''}" onclick="go('${t[0]}')"><span>${t[1]}</span>${t[2]}</button>`).join('');
+  const v=$('#v');const sc=tab!==lastTab?0:v.scrollTop;v.classList.toggle('an',tab!==lastTab);lastTab=tab;Promise.resolve().then(()=>{v.scrollTop=sc});
+  const C={home:['#6366f1','#ec4899'],tasks:['#6366f1','#8b5cf6'],water:['#06b6d4','#3b82f6'],shop:['#10b981','#06b6d4'],fin:['#10b981','#3b82f6'],habits:['#f59e0b','#ef4444'],focus:['#ec4899','#8b5cf6']}[tab];
+  document.documentElement.style.setProperty('--a',C[0]);document.documentElement.style.setProperty('--b',C[1]);
+  if(tab==='home'){
+    const tl=tasksFor(T),dn=tl.filter(x=>x.done[T]).length,hd=S.habits.filter(h=>h.days.includes(T)).length;
+    const R=[['✅','Vazifa',dn,tl.length,'var(--c1)','tasks'],['💧','Suv',S.water.n,S.goal,'var(--c3)','water'],['🔥','Odat',hd,S.habits.length,'var(--c4)','habits']];
+    const avg=Math.round(R.reduce((a,r)=>a+pct(r[2],r[3]),0)/3);
+    const msg=avg>=90?'🎉 Ajoyib kun! Hammasi deyarli tayyor':avg>=50?'💪 Yaxshi ketyapsiz, davom eting!':avg>0?'🌱 Yaxshi boshlanish, qadamma-qadam':'☀️ Yangi kun — yangi imkoniyat. Bitta kichik ishdan boshlang!';
+    v.innerHTML=`<div class="row"><div class="grow"><h1>${hello()}!</h1><p class="sub">📅 ${dateUz()}</p></div><button class="g" onclick="togSnd()" style="font-size:20px">${S.snd?'🔊':'🔇'}</button></div>
+    <div class="rings">${R.map(r=>`<div class="card rc" onclick="go('${r[5]}')"><div class="rw"><div class="ring" style="--p:${pct(r[2],r[3])};--c:${r[4]}"></div><span>${r[0]}</span></div><b>${r[2]}/${r[3]}</b><small>${r[1]}</small></div>`).join('')}</div>
+    <div class="card hc">${msg}<div class="bar" style="background:rgba(255,255,255,.3)"><i style="width:${avg}%;background:#fff"></i></div></div>
+    <div class="card row" onclick="go('fin')"><span class="grow"><b>💰 Bugungi moliya</b><br><small style="color:var(--mut)">Kirim ${fmt(S.tx.filter(x=>x.d===T&&x.k==='in').reduce((a,x)=>a+x.a,0))} · Chiqim ${fmt(S.tx.filter(x=>x.d===T&&x.k==='out').reduce((a,x)=>a+x.a,0))}</small></span><b>›</b></div>
+    <div class="card"><h2>Kayfiyatingiz qanday?</h2><div class="moods">${MO.map((m,i)=>`<button class="mo ${S.mood[T]===i?'on':''}" onclick="setM(${i})">${m}</button>`).join('')}</div><div class="week">${[6,5,4,3,2,1,0].map(o=>{const k=day(o),x=S.mood[k];return `<span>${x!=null?MO[x]:'·'}<small>${k.slice(8)}</small></span>`}).join('')}</div></div>
+    <div class="card"><div class="row"><h2 class="grow" style="margin:0">💡 Kun maslahati</h2><button class="g" onclick="tipO++;render()">🔄 Yana</button></div><p style="margin:10px 0 0">${TIPS[(Math.floor(Date.now()/864e5)+tipO)%TIPS.length]}</p></div>
+    <div class="card row"><span class="grow"><b>🧘 Nafas mashqi</b><br><small style="color:var(--mut)">Stress paytida tinchlaning${S.bm[T]?' · bugun '+S.bm[T]+' daq':''}</small></span><button onclick="breath()">Boshlash</button></div>
+    <div class="card"><h2>⚙️ Sozlamalar</h2><div class="row"><span class="grow">🔊 Ovoz</span><button class="g" onclick="togSnd()">${S.snd?'Yoqilgan':'O\'chiq'}</button></div><div class="row" style="margin-top:12px"><span class="grow">🎨 Mavzu</span>${[['auto','Avto'],['light','☀️'],['dark','🌙']].map(x=>`<button class="chip ${S.th===x[0]?'sel':''}" onclick="setTh('${x[0]}')">${x[1]}</button>`).join('')}</div><div class="row" style="margin-top:12px"><span class="grow">🔒 PIN-kod<br><small style="color:var(--mut)">${S.pin?'Yoqilgan':'Ixtiyoriy, qo\'yish shart emas'}</small></span><button class="g" onclick="pinSet()">${S.pin?'O\'zgartirish':'Qo\'yish'}</button>${S.pin?'<button class="g" onclick="pinOff()">O\'chirish</button>':''}</div></div>`;
+  }else if(tab==='tasks'){
+    const ws=weekStart(),days=[0,1,2,3,4,5,6].map(i=>addDays(ws,i)),list=tasksFor(fTD),dn=list.filter(t=>t.done[fTD]).length;
+    let wt=0,wd=0;days.filter(k=>k<=T).forEach(k=>{const l=tasksFor(k);wt+=l.length;wd+=l.filter(t=>t.done[k]).length});
+    v.innerHTML=`<h1>Vazifalar</h1><p class="sub">Shu hafta: ${wd}/${wt} bajarildi</p>
+    <div class="week2">${days.map((k,i)=>`<button class="wd ${k===fTD?'sel':''} ${k===T?'td':''}" onclick="setTD('${k}')">${DN[i]}<b>${+k.slice(8)}</b><i class="${tasksFor(k).length?'dt':''}"></i></button>`).join('')}</div>
+    <div class="card"><input type="text" id="ti" placeholder="Yangi vazifa..." onkeydown="if(event.key==='Enter')addT()">
+    <p class="sub" style="margin:12px 0 6px">Qaysi kunlari?</p>
+    <div class="chips" style="margin-bottom:8px">${[['once','Faqat '+(fTD===T?'bugun':fTD.slice(8)+'-kun')],['all','Har kuni'],['wk','Ish kunlari'],['we','Dam olish']].map(x=>`<button class="chip dq" data-q="${x[0]}" onclick="qd('${x[0]}')">${x[1]}</button>`).join('')}</div>
+    <div class="chips" style="margin-bottom:12px">${DN.map((d,i)=>`<button class="chip dch" data-i="${i}" onclick="togD(${i})">${d}</button>`).join('')}</div>
+    <div class="row"><span class="grow">⏰ Vaqt (ixtiyoriy)</span><input type="time" id="tt2" style="width:auto"></div>
+    <button style="width:100%;margin-top:12px" onclick="addT()">+ Vazifa qo'shish</button></div>
+    <div class="card"><div class="row"><h2 class="grow" style="margin:0">${fTD===T?'Bugun':fTD.slice(5)}</h2><b>${dn}/${list.length}</b></div><div class="bar" style="margin-bottom:6px"><i style="width:${pct(dn,list.length)}%"></i></div>
+    ${list.length?list.map(t=>`<div class="item"><button class="chk ${t.done[fTD]?'on':''}" onclick="togT(${t.id})">${t.done[fTD]?'✓':''}</button><span class="grow ${t.done[fTD]?'done':''}">${esc(t.t)}${t.time?`<span class="tm">⏰ ${t.time}</span>`:''}<br><small style="color:var(--mut)">${repL(t)}</small></span><button class="x" onclick="delT(${t.id})">✕</button></div>`).join(''):'<div class="empty">Bu kunga vazifa yo\'q 🌿</div>'}</div>`;
+    paintD();
+  }else if(tab==='shop'){
+    const it=S.shop.map(x=>Object.assign({u:'dona',p:0},x));
+    const est=it.reduce((a,x)=>a+x.q*x.p,0),got=it.filter(x=>x.d).reduce((a,x)=>a+x.q*x.p,0),bt=it.filter(x=>x.d).length;
+    const left=S.bud-est,over=S.bud>0&&left<0;
+    const mo=S.tx.filter(x=>x.k==='out'&&x.c==='🛒 Bozorlik'&&x.d.slice(0,7)===T.slice(0,7)).reduce((a,x)=>a+x.a,0);
+    v.innerHTML=`<h1>Bozorlik</h1><p class="sub">Reja tuzing, byudjetdan oshmang</p>
+    <div class="card"><h2>💰 Bozor uchun summa</h2><input type="number" inputmode="numeric" id="bu" placeholder="Masalan: 200000" value="${S.bud||''}" onchange="setBud(this.value)">
+    <div class="row" style="margin-top:12px;justify-content:space-between"><span>Reja<br><b>${fmt(est)}</b></span><span>Olindi<br><b>${fmt(got)}</b></span><span>${over?'Oshdi':'Qoldi'}<br><b style="color:${over?'#ef4444':'var(--ok)'}">${S.bud?fmt(Math.abs(left)):'—'}</b></span></div>
+    <div class="bar"><i style="width:${S.bud?pct(est,S.bud):0}%;${over?'background:#ef4444':''}"></i></div>${over?'<p style="color:#ef4444;margin:8px 0 0">⚠️ Reja byudjetdan oshib ketdi</p>':''}</div>
+    <div class="card"><input type="text" id="si" placeholder="Nima olish kerak?" onkeydown="if(event.key==='Enter')addS()">
+    <div class="row" style="margin-top:10px"><input type="number" inputmode="decimal" id="sq" placeholder="Miqdor" style="width:34%"><select id="su" style="margin:0;flex:1">${UN.map(u=>`<option>${u}</option>`).join('')}</select></div>
+    <div class="row" style="margin-top:10px"><input type="number" inputmode="numeric" id="sp" placeholder="Narxi (1 birlik uchun)"><button onclick="addS()">+</button></div></div>
+    <div class="chips">${S.qs.map((q,i)=>`<button class="chip" onclick="${qEdit?'delQ('+i+')':'fillS('+i+')'}">${esc(q)}${qEdit?' ✕':''}</button>`).join('')}<button class="chip" onclick="qEdit=!qEdit;render()">${qEdit?'✔ Tayyor':'✏️ Tahrirlash'}</button></div>${qEdit?`<div class="row" style="margin-bottom:14px"><input type="text" id="qi" placeholder="Yangi tugma (masalan: 🧀 Pishloq)" onkeydown="if(event.key==='Enter')addQ()"><button onclick="addQ()">+</button></div>`:''}
+    <div class="card">${it.length?it.map((x,i)=>`<div class="item"><button class="chk ${x.d?'on':''}" onclick="togS(${i})">${x.d?'✓':''}</button><span class="grow ${x.d?'done':''}">${esc(x.t)}<br><small style="color:var(--mut)">${x.q} ${x.u}${x.p?' × '+fmt(x.p)+' = '+fmt(x.q*x.p):''}</small></span><span class="qty"><button class="g" onclick="qS(${i},-1)">−</button><button class="g" onclick="qS(${i},1)">+</button></span><button class="x" onclick="delS(${i})">✕</button></div>`).join(''):'<div class="empty">Ro\'yxat bo\'sh 🛒</div>'}</div>
+    ${bt?'<button onclick="finS()">✅ Xaridni yakunlash</button>':''}
+    <p class="sub" style="margin-top:14px">📅 Shu oy bozorlikka sarflandi: <b>${fmt(mo)}</b></p>`;
+  }else if(tab==='fin'){
+    const cats=S.cat[fK];if(!cats.includes(fC))fC=cats[0]||'';
+    const inP=d=>fP==='day'?d===T:fP==='week'?d>=day(6):d.slice(0,7)===T.slice(0,7);
+    const L=S.tx.map((x,i)=>Object.assign({i},x)).filter(x=>inP(x.d));
+    const sum=k=>L.filter(x=>x.k===k).reduce((a,x)=>a+x.a,0),I=sum('in'),O=sum('out'),B=I-O;
+    const by={};L.filter(x=>x.k==='out').forEach(x=>by[x.c]=(by[x.c]||0)+x.a);
+    const ent=Object.entries(by).sort((a,b)=>b[1]-a[1]),PAL=['#6366f1','#ec4899','#06b6d4','#f59e0b','#10b981','#ef4444','#8b5cf6','#14b8a6','#f97316'];
+    let off=25;const segs=ent.map((e,i)=>{const q=e[1]/O*100,r=`<circle cx="21" cy="21" r="15.9155" fill="none" stroke="${PAL[i%9]}" stroke-width="6" stroke-dasharray="${q} ${100-q}" stroke-dashoffset="${off}"></circle>`;off-=q;return r}).join('');
+    const donut=O?`<div class="row"><svg viewBox="0 0 42 42" width="150" height="150"><circle cx="21" cy="21" r="15.9155" fill="none" stroke="var(--track)" stroke-width="6"></circle>${segs}<text x="21" y="22.4" text-anchor="middle" font-size="4.2" font-weight="700" fill="currentColor">${short(O)}</text></svg><div class="grow">${ent.slice(0,6).map((e,i)=>`<div class="lg"><i style="background:${PAL[i%9]}"></i><span class="grow">${esc(e[0])}</span><b>${Math.round(e[1]/O*100)}%</b></div>`).join('')}</div></div>`:'<div class="empty">Bu davrda chiqim yo\'q</div>';
+    const dd=[6,5,4,3,2,1,0].map(o=>{const k=day(o);return{k,i:S.tx.filter(x=>x.d===k&&x.k==='in').reduce((a,x)=>a+x.a,0),o:S.tx.filter(x=>x.d===k&&x.k==='out').reduce((a,x)=>a+x.a,0)}});
+    const mx=Math.max(1,...dd.flatMap(d=>[d.i,d.o]));
+    const bars=`<div class="hist" style="height:110px">${dd.map(d=>`<div><div style="display:flex;gap:3px;align-items:flex-end;justify-content:center"><i style="width:10px;height:${Math.round(80*d.i/mx)}px;background:#10b981;margin:0;min-height:0"></i><i style="width:10px;height:${Math.round(80*d.o/mx)}px;background:#ef4444;margin:0;min-height:0"></i></div>${d.k.slice(8)}</div>`).join('')}</div>`;
+    const mo=S.tx.filter(x=>x.k==='out'&&x.d.slice(0,7)===T.slice(0,7)).reduce((a,x)=>a+x.a,0),nd=fP==='day'?1:fP==='week'?7:new Date().getDate();
+    const ov=S.lim>0&&mo>S.lim;
+    v.innerHTML=`<h1>Moliya</h1><p class="sub">Kirim-chiqimni tez hisoblang</p>
+    <div class="row" style="margin-bottom:12px">${[['day','Bugun'],['week','Hafta'],['month','Oy']].map(x=>`<button class="chip ${fP===x[0]?'sel':''}" style="flex:1" onclick="setFP('${x[0]}')">${x[1]}</button>`).join('')}</div>
+    <div class="rings"><div class="card rc"><small>Kirim</small><b style="color:#10b981">${fmt(I)}</b></div><div class="card rc"><small>Chiqim</small><b style="color:#ef4444">${fmt(O)}</b></div><div class="card rc"><small>Balans</small><b style="color:${B<0?'#ef4444':'#10b981'}">${B<0?'−':''}${fmt(Math.abs(B))}</b></div></div>
+    <div class="card"><div class="row" style="margin-bottom:10px"><button class="${fK==='out'?'':'g'}" style="flex:1" onclick="setFK('out')">➖ Chiqim</button><button class="${fK==='in'?'':'g'}" style="flex:1" onclick="setFK('in')">➕ Kirim</button></div>
+    <div class="chips">${cats.map((c,i)=>`<button class="chip cc ${!qE2&&c===fC?'sel':''}" onclick="${qE2?'delC('+i+')':'selC('+i+')'}">${esc(c)}${qE2?' ✕':''}</button>`).join('')}<button class="chip" onclick="qE2=!qE2;render()">${qE2?'✔ Tayyor':'✏️ Tahrirlash'}</button></div>
+    ${qE2?`<div class="row" style="margin-bottom:12px"><input type="text" id="ci" placeholder="Yangi toifa (masalan: 🚕 Taksi)" onkeydown="if(event.key==='Enter')addC()"><button onclick="addC()">+</button></div>`:''}
+    <input type="number" inputmode="numeric" id="fa" placeholder="Summa (so'm)" style="font-size:20px;font-weight:700">
+    <div class="chips" style="margin:10px 0">${[1000,5000,10000,50000,100000].map(n=>`<button class="chip" onclick="addAmt(${n})">+${short(n)}</button>`).join('')}<button class="chip" onclick="$('#fa').value=''">C</button></div>
+    <div class="row"><input type="text" id="fn" placeholder="Izoh (ixtiyoriy)" onkeydown="if(event.key==='Enter')addTx()"><button onclick="addTx()">Qo'shish</button></div></div>
+    <div class="card"><h2>🍩 Chiqimlar toifalar bo'yicha</h2>${donut}${O?`<p class="sub" style="margin:10px 0 0">O'rtacha kunlik chiqim: <b>${fmt(O/nd)}</b></p>`:''}</div>
+    <div class="card"><h2>📊 Oxirgi 7 kun</h2>${bars}<p class="sub" style="margin:8px 0 0"><span style="color:#10b981">■</span> kirim <span style="color:#ef4444">■</span> chiqim</p></div>
+    <div class="card"><h2>🎯 Oylik chiqim limiti</h2><input type="number" inputmode="numeric" placeholder="Masalan: 3000000" value="${S.lim||''}" onchange="setLim(this.value)"><div class="bar"><i style="width:${S.lim?pct(mo,S.lim):0}%;${ov?'background:#ef4444':''}"></i></div><p class="sub" style="margin:8px 0 0">${S.lim?(ov?'⚠️ Limitdan '+fmt(mo-S.lim)+' oshdi':'Qoldi: '+fmt(S.lim-mo)):'Shu oy chiqim: '+fmt(mo)}</p></div>
+    <div class="card"><h2>🧾 Amallar</h2>${L.length?L.slice(0,25).map(x=>`<div class="item"><span class="grow">${esc(x.c)}<br><small style="color:var(--mut)">${x.d.slice(5)}${x.n&&x.n!=='Bozorlik'?' · '+esc(x.n):''}</small></span><b style="color:${x.k==='in'?'#10b981':'#ef4444'}">${x.k==='in'?'+':'−'}${fmt(x.a)}</b><button class="x" onclick="delTx(${x.i})">✕</button></div>`).join(''):'<div class="empty">Hali amal yo\'q</div>'}</div>`;
+  }else if(tab==='water'){
+    const P=S.prof,L=S.goal*S.gl/1000,dr=S.water.n*S.gl/1000;
+    const hr=new Date().getHours(),exp=Math.round(S.goal*Math.min(1,Math.max(0,(hr-7)/15)));
+    const hint=S.water.n>=S.goal?'🎉 Bugungi me\'yor bajarildi!':S.water.n>=exp?'👍 Tempingiz yaxshi':`⏰ Hozirgacha taxminan ${exp} stakan ichishingiz kerak edi`;
+    const form=`<div class="card"><h2>👤 Siz haqingizda</h2><p class="sub" style="margin:0 0 10px">Shaxsiy suv me'yorini hisoblaymiz</p><div class="row"><input type="number" inputmode="decimal" id="pw" placeholder="Vazn (kg)" value="${P?P.w:''}"><input type="number" inputmode="decimal" id="ph" placeholder="Bo'y (sm)" value="${P?P.h:''}"></div>
+    <select id="pa">${['Kam faol (o\'tirib ishlayman)','O\'rtacha (yurish, yengil mashq)','Juda faol (kuchli mashq, issiq havo)'].map((t,i)=>`<option value="${i}" ${P&&P.a===i?'selected':''}>${t}</option>`).join('')}</select><button onclick="saveP()">Hisoblash</button></div>`;
+    let rec='';
+    if(P){const bmi=P.w/Math.pow(P.h/100,2),bc=bmi<18.5?'vazn kam':bmi<25?'me\'yorda':bmi<30?'ortiqcha vazn':'semizlik';
+      rec=`<div class="card cen"><h2>🧮 Sizga tavsiya</h2><div class="big" style="font-size:46px">${L.toFixed(1)} litr</div>kuniga ≈ <b>${S.goal}</b> stakan (${S.gl} ml)<p class="sub" style="margin:10px 0">${P.w} kg · ${P.h} sm · tana indeksi ${bmi.toFixed(1)} (${bc})</p><button class="g" onclick="wEdit=true;render()">Ma'lumotni o'zgartirish</button><p class="sub" style="font-size:12px;margin:10px 0 0">Bu umumiy tavsiya (vazn × 33 ml + faollik). Buyrak yoki yurak kasalligi bo'lsa shifokor bilan maslahatlashing.</p></div>`}
+    const cups=Array.from({length:S.goal},(_,i)=>`<span class="cup ${i<S.water.n?'on':''}">🥛</span>`).join('');
+    const main=`<div class="card cen"><div class="big">${S.water.n}/${S.goal}</div><div class="sub" style="margin:0">${dr.toFixed(2)} / ${L.toFixed(1)} litr</div><div class="cups">${cups}</div><div class="bar"><i style="width:${pct(S.water.n,S.goal)}%"></i></div><p>${hint}</p>
+    <div class="row" style="justify-content:center"><button class="g" onclick="wat(-1)">−</button><button onclick="wat(1)">+ Stakan ichdim</button></div></div>`;
+    v.innerHTML=`<h1>Suv ichish</h1><p class="sub">${P?'Sizning shaxsiy me\'yoringiz':'Avval vazn va bo\'yingizni kiriting'}</p>`+((!P||wEdit)?form+main:main+rec)+
+    `<div class="card"><h2>🥛 Stakan hajmi</h2><div class="chips" style="margin:0">${[200,250,300,400].map(g=>`<button class="chip" style="${S.gl===g?'background:linear-gradient(135deg,var(--a),var(--b));color:#fff':''}" onclick="setG(${g})">${g} ml</button>`).join('')}</div></div>
+    <div class="card"><h2>📊 Oxirgi 7 kun</h2><div class="hist">${[6,5,4,3,2,1,0].map(o=>{const k=day(o),n=o===0?S.water.n:(S.wh[k]||0);return `<div><i style="height:${Math.round(60*Math.min(1,n/S.goal))}px"></i>${n}<br>${k.slice(8)}</div>`}).join('')}</div></div>
+    <div class="card row"><span class="grow">Maqsadni qo'lda o'zgartirish</span><button class="g" onclick="goal(-1)">−</button><b>${S.goal}</b><button class="g" onclick="goal(1)">+</button></div>`;
+  }else if(tab==='habits'){
+    v.innerHTML=`<h1>Odatlar</h1><p class="sub">Har kuni oz-ozdan</p>
+    <div class="row" style="margin-bottom:12px"><input type="text" id="hi" placeholder="Yangi odat (masalan: kitob o'qish)" onkeydown="if(event.key==='Enter')addH()"><button onclick="addH()">+</button></div>
+    <div class="card">${S.habits.length?S.habits.map((h,i)=>{const on=h.days.includes(T);return `<div class="item"><button class="chk ${on?'on':''}" onclick="togH(${i})">${on?'✓':''}</button><span class="grow">${esc(h.n)}<br><small style="color:var(--mut)">🔥 ${streak(h)} kun ketma-ket</small></span><button class="x" onclick="delH(${i})">✕</button></div>`}).join(''):'<div class="empty">Birinchi odatingizni qo\'shing</div>'}</div>`;
+  }else{
+    v.innerHTML=`<h1>Fokus</h1><p class="sub">${tm.msg||'Ish va dam vaqtini o\'zingiz belgilang'}</p>
+    <div class="card cen"><div class="row" style="justify-content:center;margin-bottom:6px"><button class="${tm.mode==='w'?'':'g'}" onclick="setMode('w')">🎯 Ish</button><button class="${tm.mode==='b'?'':'g'}" onclick="setMode('b')">☕ Dam olish</button></div>
+    <div class="rw xl"><div class="ring" id="fr"></div><span id="tt"></span></div>
+    <div class="row" style="justify-content:center"><button id="tb" onclick="tgl()"></button><button class="g" onclick="rst()">Qayta</button></div></div>
+    <div class="card"><div class="row"><span class="grow">🎯 Ish vaqti</span><button class="g" onclick="setW(-5)">−</button><b>${S.fw} daq</b><button class="g" onclick="setW(5)">+</button></div>
+    <div class="row" style="margin-top:12px"><span class="grow">☕ Dam olish</span><button class="g" onclick="setB(-1)">−</button><b>${S.fb} daq</b><button class="g" onclick="setB(1)">+</button></div></div>
+    <div class="card cen">🔥 Bugun <b>${S.fs[T]||0}</b> ta ish sessiyasi tugatildi</div>`;
+    tick();
+  }
+}
+const tot=()=>(tm.mode==='w'?S.fw:S.fb)*60;
+const beep=()=>sfx('done');
+function fin(){clearInterval(tm.id);tm.run=false;beep();try{navigator.vibrate&&navigator.vibrate([300,150,300])}catch(e){}
+  if(tm.mode==='w'){S.fs[T]=(S.fs[T]||0)+1;save();tm.mode='b';tm.msg='Vaqt tugadi! Dam oling 🌿'}else{tm.mode='w';tm.msg='Dam tugadi, ishga qaytamiz 💪'}
+  tm.left=tot();if(tab==='focus')render()}
+function tick(){if(tm.run){tm.left=Math.max(0,Math.ceil((tm.end-Date.now())/1000));if(tm.left<=0){fin();return}}
+  const t=$('#tt');if(!t)return;const m=Math.floor(tm.left/60),s=tm.left%60;t.textContent=String(m).padStart(2,'0')+':'+String(s).padStart(2,'0');$('#tb').textContent=tm.run?'Pauza':'Boshlash';$('#fr').style.setProperty('--p',(1-tm.left/tot())*100)}
+function tgl(){if(tm.run){tick();clearInterval(tm.id);tm.run=false}else{if(tm.left<=0)tm.left=tot();tm.msg='';tm.run=true;tm.end=Date.now()+tm.left*1000;tm.id=setInterval(tick,500)}tick()}
+function rst(){clearInterval(tm.id);tm.run=false;tm.left=tot();tick()}
+function setMode(m){clearInterval(tm.id);tm.run=false;tm.mode=m;tm.msg='';tm.left=tot();render()}
+function setW(n){S.fw=Math.min(90,Math.max(5,S.fw+n));save();if(!tm.run&&tm.mode==='w')tm.left=tot();render()}
+function setB(n){S.fb=Math.min(30,Math.max(1,S.fb+n));save();if(!tm.run&&tm.mode==='b')tm.left=tot();render()}
+function go(t){tab=t;sfx('tab');render()}
+function wat(n){S.water.n=Math.max(0,S.water.n+n);S.wh[T]=S.water.n;if(n>0){sfx('water');if(S.water.n===S.goal)setTimeout(()=>sfx('ok'),350)}save();render()}
+function goal(n){S.goal=Math.min(20,Math.max(1,S.goal+n));save();render()}
+function addH(){const e=$('#hi'),n=e.value.trim();if(!n)return;S.habits.push({n,days:[]});sfx('add');save();render()}
+function togH(i){const d=S.habits[i].days,k=d.indexOf(T);k>-1?d.splice(k,1):(d.push(T),sfx('ok'));save();render()}
+function delH(i){S.habits.splice(i,1);sfx('del');save();render()}
+function addQ(){const e=$('#qi'),t=e.value.trim();if(!t)return;S.qs.push(t);save();render()}
+function delQ(i){S.qs.splice(i,1);save();render()}
+function setM(i){S.mood[T]=i;sfx('add');save();render()}
+const UN=['dona','kg','g','litr','ml','paket','quti'],ST={dona:1,kg:.5,g:100,litr:.5,ml:100,paket:1,quti:1};
+function addS(){const t=$('#si').value.trim();if(!t)return;S.shop.unshift({t,q:+$('#sq').value>0?+$('#sq').value:1,u:$('#su').value,p:Math.max(0,+$('#sp').value||0),d:false});sfx('add');save();render()}
+function fillS(i){$('#si').value=S.qs[i];$('#si').focus()}
+function setBud(x){S.bud=Math.max(0,+x||0);save();render()}
+function togS(i){S.shop[i].d=!S.shop[i].d;sfx(S.shop[i].d?'ok':'tap');save();render()}
+function qS(i,n){const x=S.shop[i],st=ST[x.u||'dona'];x.q=Math.max(st,Math.round((x.q+n*st)*100)/100);save();render()}
+function delS(i){S.shop.splice(i,1);sfx('del');save();render()}
+function finS(){const g=S.shop.filter(x=>x.d).reduce((a,x)=>a+x.q*(x.p||0),0);if(g>0){S.tx.unshift({k:'out',a:g,c:'🛒 Bozorlik',n:'Bozorlik',d:T});sfx('coin')}S.shop=S.shop.filter(x=>!x.d);save();render()}
+const TIPS=["Chuqur nafas oling: 4 soniya nafas, 4 soniya chiqarish asabni tinchlantiradi.","Qaror qila olmasangiz, bir kecha uxlab oling, ertalab fikr tiniqroq bo'ladi.","Kuniga kamida 20 daqiqa toza havo va quyosh nuri oling.","Uxlashdan 1 soat oldin telefonni chetga qo'ying, uyqu sifati yaxshilanadi.","Katta ishni 10 daqiqalik kichik qismlarga bo'ling va birinchisidan boshlang.","Charchagan yoki jahldor paytda muhim qaror qabul qilmang.","Qimmat narsa olishdan oldin 24 soat kuting, keraksiz xaridlar kamayadi.","Do'konga och qoringa bormang, ortiqcha narsa olib qo'yasiz.","Har soatda o'rningizdan turib 2 daqiqa yuring yoki cho'ziling.","Ko'zlaringizni asrang: har 20 daqiqada 20 soniya uzoqqa qarang.","Ertangi eng muhim 3 ishni bugun kechqurun yozib qo'ying.","Yaqinlaringizdan biriga bugun qo'ng'iroq qiling yoki iliq so'z yozing.","Xafa bo'lib javob yozishdan oldin 10 gacha sanang.","Muhim hujjat va parollarning nusxasini xavfsiz joyda saqlang.","Notanish joyda telefonga emas, atrofingizga e'tibor bering.","Shirinlik o'rniga ba'zan meva yeng, energiya tekis bo'ladi.","Ovqatni shoshilmay chaynang, to'yganingizni tezroq sezasiz.","\"Yo'q\" deyishni o'rganing, hamma narsaga ulgurib bo'lmaydi.","Mashqqa vaqt yo'q bo'lsa, 5 daqiqalik tez yurish ham foydali.","O'zingizni boshqalar bilan emas, kechagi o'zingiz bilan solishtiring.","Xato qilish o'rganish belgisi, o'zingizni ayblab ovora bo'lmang.","Kalit, hujjat va telefonga doim bir joy belgilang, yo'qotish kamayadi.","Og'ir suhbatdan oldin nima demoqchi ekaningizni qisqa yozib oling.","Hafta oxirida ham bir xil vaqtda yotib turing, uyqu tartibga tushadi.","Kayfiyat tushganda 5 daqiqa tashqarida sayr qiling.","Muhim ishdan oldin suv iching, miya suvsizlikda sekin ishlaydi.","Daromadingizning kamida 10 foizini zaxiraga ajrating.","Notanish havola va xabarlarni shoshilib ochmang, avval tekshiring.","Muhim yo'lga chiqishdan oldin telefonni zaryadlab oling.","Bugun yaxshi qilgan bir ishingiz uchun o'zingizni maqtang.","Kuchli og'riq, bosh aylanishi yoki ko'krak og'rig'ini kutmang, shifokorga murojaat qiling.","Har kuni 5 daqiqa yangi narsa o'rganing, bir yilda katta natija beradi.","Diqqatingiz tarqalsa, keraksiz bildirishnomalarni o'chirib qo'ying.","Tushdan keyin kofe kam iching, kechki uyquga xalaqit beradi.","Qo'lni ovqatdan oldin va tashqaridan kelganda yuving.","Doimiy ichiladigan dorilar uchun eslatma qo'ying.","Katta natija bir kunda emas, har kungi kichik qadamlardan keladi.","Ko'ngilingiz og'ir bo'lsa, ishongan odamingizga yozing, gapirish yengillashtiradi.","Ishlayotganda bir vaqtda bitta ishga e'tibor bering, tezroq tugaydi.","Tartibsizlik fikrni ham chalg'itadi: stolingizni 2 daqiqada yig'ishtiring."];
+const fmt=n=>Math.round(n).toLocaleString('ru-RU')+' so\'m';
+function calcGoal(){const P=S.prof;if(!P)return;S.goal=Math.min(30,Math.max(1,Math.round((P.w*33+[0,350,700][P.a])/S.gl)))}
+function saveP(){const w=+$('#pw').value,h=+$('#ph').value;if(!(w>=20&&w<=300&&h>=80&&h<=250)){alert('Vazn (20-300 kg) va bo\'yni (80-250 sm) to\'g\'ri kiriting');return}S.prof={w,h,a:+$('#pa').value};sfx('ok');calcGoal();wEdit=false;save();render()}
+function setG(g){S.gl=g;calcGoal();save();render()}
+const BT=[{n:'🌿 Tinchlanish',p:[['Nafas oling',4],['Chiqaring',6]]},{n:'⬜ Quti 4-4-4-4',p:[['Nafas oling',4],['Ushlang',4],['Chiqaring',4],['Ushlang',4]]},{n:'🌙 Uyqu 4-7-8',p:[['Nafas oling',4],['Ushlang',7],['Chiqaring',8]]}];let bs={t:0,m:1};
+function breath(){const o=document.createElement('div');o.className='ov';document.body.appendChild(o);
+  const menu=()=>{o.innerHTML=`<h1>🧘 Nafas mashqi</h1><p class="sub">Usul va davomiylikni tanlang</p><div class="chips" style="justify-content:center">${BT.map((b,i)=>`<button class="chip ${bs.t===i?'sel':''}" data-t="${i}">${b.n}</button>`).join('')}</div><div class="chips" style="justify-content:center">${[1,3,5].map(m=>`<button class="chip ${bs.m===m?'sel':''}" data-m="${m}">${m} daqiqa</button>`).join('')}</div><p class="sub">${BT[bs.t].p.map(x=>x[0]+' '+x[1]+'s').join(' → ')}</p><div class="row"><button id="bg">Boshlash</button><button class="g" id="bx">Yopish</button></div><p class="sub">Bugun jami: ${S.bm[T]||0} daqiqa</p>`;
+    o.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>{bs.t=+b.dataset.t;menu()});o.querySelectorAll('[data-m]').forEach(b=>b.onclick=()=>{bs.m=+b.dataset.m;menu()});
+    $('#bx').onclick=()=>o.remove();$('#bg').onclick=run};
+  const run=()=>{const P=BT[bs.t].p;let total=bs.m*60,pi=0,left=P[0][1],cyc=0;
+    o.innerHTML=`<div class="bw"><div class="bc" id="bc"></div><span id="bn"></span></div><h1 id="bt"></h1><p class="sub" id="bi"></p><button class="g" id="bx">Tugatish</button>`;
+    const set=()=>{const t=P[pi][0],d=P[pi][1],c=$('#bc');$('#bt').textContent=t;c.style.transition='transform '+d+'s linear';if(t==='Nafas oling')c.style.transform='scale(1.5)';else if(t==='Chiqaring')c.style.transform='scale(.6)';try{navigator.vibrate&&navigator.vibrate(60)}catch(e){}sfx(t==='Nafas oling'?'inh':t==='Chiqaring'?'exh':'hold')};
+    const upd=()=>{$('#bn').textContent=left;$('#bi').textContent=Math.floor(total/60)+':'+String(total%60).padStart(2,'0')+' qoldi · '+cyc+' sikl'};
+    const end=done=>{clearInterval(id);if(done)sfx('done');const sp=bs.m*60-Math.max(0,total),mn=Math.round(sp/6)/10;S.bm[T]=Math.round(((S.bm[T]||0)+mn)*10)/10;save();
+      o.innerHTML=`<h1>${done?'Barakalla! 🌿':'Tugatildi'}</h1><p class="sub">${cyc} ta to'liq sikl · ${mn} daqiqa</p><p>Hozir o'zingizni qanday his qilyapsiz?</p><div class="row"><button id="bm">Yana bir marta</button><button class="g" id="bx">Yopish</button></div>`;$('#bx').onclick=()=>o.remove();$('#bm').onclick=menu;if(tab==='home')render()};
+    const id=setInterval(()=>{total--;left--;if(total<=0){end(true);return}if(left<=0){pi=(pi+1)%P.length;if(pi===0)cyc++;left=P[pi][1];set()}upd()},1000);
+    $('#bx').onclick=()=>end(false);setTimeout(()=>{set();upd()},60)};
+  menu()}
+const WD=['Yakshanba','Dushanba','Seshanba','Chorshanba','Payshanba','Juma','Shanba'],MN=['yanvar','fevral','mart','aprel','may','iyun','iyul','avgust','sentabr','oktabr','noyabr','dekabr'];
+const dateUz=()=>{const d=new Date();return WD[d.getDay()]+', '+d.getDate()+'-'+MN[d.getMonth()]+' '+d.getFullYear()};
+const short=n=>n>=1e6?(Math.round(n/1e5)/10)+' mln':n>=1e3?Math.round(n/1e3)+' ming':String(Math.round(n));
+let fK='out',fC='',fP='day',qE2=false,AC=null,MG=null;
+function ac(){if(!S.snd)return null;try{if(!AC){AC=new(window.AudioContext||window.webkitAudioContext)();MG=AC.createGain();MG.gain.value=.9;MG.connect(AC.destination);const D=AC.createDelay(),F=AC.createGain(),W=AC.createGain();D.delayTime.value=.17;F.gain.value=.3;W.gain.value=.25;MG.connect(D);D.connect(F);F.connect(D);D.connect(W);W.connect(AC.destination)}if(AC.state==='suspended')AC.resume();return AC}catch(e){return null}}
+function nt(f,t0,d,ty,vol,f2){const c=ac();if(!c)return;const o=c.createOscillator(),g=c.createGain(),n=c.currentTime+t0;o.type=ty||'sine';o.frequency.setValueAtTime(f,n);if(f2)o.frequency.exponentialRampToValueAtTime(f2,n+d);g.gain.setValueAtTime(.0001,n);g.gain.exponentialRampToValueAtTime(vol||.12,n+.012);g.gain.exponentialRampToValueAtTime(.0001,n+d);o.connect(g);g.connect(MG);o.start(n);o.stop(n+d+.05)}
+function bell(f,t0,v){nt(f,t0,1.6,'sine',v);nt(f*2.01,t0,1,'sine',v*.35);nt(f*3.02,t0,.6,'sine',v*.15)}
+const SFX={tap:()=>nt(520,0,.05,'triangle',.04,380),tab:()=>{nt(660,0,.07,'sine',.07);nt(880,.04,.09,'sine',.05)},
+add:()=>{nt(523,0,.12,'sine',.1);nt(784,.07,.2,'sine',.1)},ok:()=>{nt(523.25,0,.16,'sine',.1);nt(659.25,.08,.16,'sine',.1);nt(783.99,.16,.34,'sine',.1)},
+del:()=>nt(330,0,.18,'triangle',.08,160),water:()=>{nt(380,0,.16,'sine',.14,900);nt(520,.1,.12,'sine',.07,1100)},
+coin:()=>{nt(988,0,.08,'triangle',.08);nt(1319,.07,.4,'triangle',.08)},out:()=>{nt(700,0,.1,'triangle',.09);nt(500,.08,.22,'triangle',.09)},
+done:()=>{[523.25,659.25,783.99,1046.5].forEach((f,i)=>bell(f,i*.22,.12))},inh:()=>nt(220,0,3.8,'sine',.07,340),exh:()=>nt(340,0,5,'sine',.07,200),hold:()=>nt(440,0,.15,'sine',.04)};
+const sfx=n=>{try{SFX[n]&&SFX[n]()}catch(e){}};
+document.addEventListener('click',e=>{const b=e.target.closest('button');if(b&&!b.closest('nav'))sfx('tap')});
+function togSnd(){S.snd=!S.snd;save();if(S.snd)sfx('ok');render()}
+function setFK(k){fK=k;fC='';qE2=false;render()}
+function setFP(x){fP=x;render()}
+function selC(i){fC=S.cat[fK][i];document.querySelectorAll('.cc').forEach((b,j)=>b.classList.toggle('sel',j===i))}
+function addAmt(n){const e=$('#fa');e.value=(+e.value||0)+n}
+function addTx(){const a=+$('#fa').value;if(!(a>0))return;S.tx.unshift({k:fK,a,c:fC||S.cat[fK][0]||'Boshqa',n:$('#fn').value.trim(),d:T});sfx(fK==='in'?'coin':'out');save();render()}
+function delTx(i){S.tx.splice(i,1);sfx('del');save();render()}
+function addC(){const t=$('#ci').value.trim();if(!t)return;S.cat[fK].push(t);save();render()}
+function delC(i){S.cat[fK].splice(i,1);save();render()}
+function setLim(x){S.lim=Math.max(0,+x||0);save();render()}
+const DN=['Du','Se','Ch','Pa','Ju','Sh','Ya'];
+const wdOf=k=>(new Date(k+'T00:00:00').getDay()+6)%7;
+const addDays=(k,n)=>{const d=new Date(k+'T00:00:00');d.setDate(d.getDate()+n);return d.toLocaleDateString('sv')};
+const weekStart=()=>addDays(T,-wdOf(T));
+const tasksFor=k=>S.tasks.filter(t=>k>=(t.from||'0')&&(t.date?t.date===k:t.days.includes(wdOf(k)))).sort((a,b)=>(a.time||'99').localeCompare(b.time||'99'));
+const repL=t=>t.date?'Bir marta':t.days.length===7?'Har kuni':t.days.map(i=>DN[i]).join(', ');
+let fTD=T,fD=[],fOnce=true;
+function paintD(){const q=fOnce?'once':fD.length===7?'all':(fD.join()==='0,1,2,3,4')?'wk':(fD.join()==='5,6')?'we':'';document.querySelectorAll('.dq').forEach(b=>b.classList.toggle('sel',b.dataset.q===q));document.querySelectorAll('.dch').forEach(b=>b.classList.toggle('sel',!fOnce&&fD.includes(+b.dataset.i)))}
+function qd(q){fOnce=q==='once';fD=q==='all'?[0,1,2,3,4,5,6]:q==='wk'?[0,1,2,3,4]:q==='we'?[5,6]:[];paintD()}
+function togD(i){fOnce=false;const k=fD.indexOf(i);k>-1?fD.splice(k,1):fD.push(i);fD.sort();paintD()}
+function setTD(k){fTD=k;sfx('tab');render()}
+function addT(){const t=$('#ti').value.trim();if(!t)return;if(!fOnce&&!fD.length)fOnce=true;const tm=$('#tt2').value||'';S.tasks.push({id:Date.now()+Math.floor(Math.random()*999),t,days:fOnce?[]:fD.slice(),date:fOnce?fTD:null,time:tm,done:{},from:T});if(tm)try{'Notification' in window&&Notification.permission==='default'&&Notification.requestPermission()}catch(e){}sfx('add');save();render()}
+function togT(id){const t=S.tasks.find(x=>x.id===id);t.done[fTD]=!t.done[fTD];sfx(t.done[fTD]?'ok':'tap');save();render()}
+function delT(id){S.tasks=S.tasks.filter(x=>x.id!==id);sfx('del');save();render()}
+function toast(m){const e=document.createElement('div');e.className='toast';e.textContent=m;e.onclick=()=>e.remove();document.body.appendChild(e);setTimeout(()=>e.remove(),8000)}
+const notified=new Set();
+function remind(){const n=new Date(),hm=String(n.getHours()).padStart(2,'0')+':'+String(n.getMinutes()).padStart(2,'0');tasksFor(T).forEach(t=>{const key=T+t.id+hm;if(t.time===hm&&!t.done[T]&&!notified.has(key)){notified.add(key);toast('⏰ '+t.t);sfx('done');try{navigator.vibrate&&navigator.vibrate([200,100,200]);'Notification' in window&&Notification.permission==='granted'&&new Notification('Qulay Kun',{body:t.t})}catch(e){}}})}
+setInterval(remind,15000);
+function applyTh(){document.documentElement.dataset.theme=S.th==='auto'?'':S.th}
+function setTh(x){S.th=x;applyTh();save();render()}
+applyTh();
+const pinH=x=>{let h=5381;for(const c of 'qk'+x+'9z')h=((h<<5)+h+c.charCodeAt(0))|0;return String(h)};
+function pad(title,cb,cancel,forgot){const o=document.createElement('div');o.className='ov lk';let c='',msg='';document.body.appendChild(o);
+  const api={close:()=>o.remove(),title:t=>{title=t;msg=''},err:m=>{msg=m||'Noto\'g\'ri PIN';o.classList.remove('shk');void o.offsetWidth;o.classList.add('shk');try{navigator.vibrate&&navigator.vibrate(200)}catch(e){}sfx('del')}};
+  const draw=()=>{o.innerHTML=`<h1>${title}</h1><p class="sub" style="min-height:22px;color:#ef4444">${msg}</p><div class="dots">${[0,1,2,3].map(i=>`<i class="${i<c.length?'on':''}"></i>`).join('')}</div><div class="kp">${[1,2,3,4,5,6,7,8,9,'',0,'⌫'].map(k=>k===''?'<span></span>':`<button class="g" data-k="${k}">${k}</button>`).join('')}</div>${cancel?'<button class="x" id="pc">Bekor qilish</button>':''}${forgot?'<button class="x" id="pf">PIN-kodni unutdim</button>':''}`;
+    o.querySelectorAll('[data-k]').forEach(b=>b.onclick=()=>{const k=b.dataset.k;if(k==='⌫')c=c.slice(0,-1);else if(c.length<4)c+=k;msg='';draw();if(c.length===4)setTimeout(()=>{const code=c;c='';cb(code,api);if(o.isConnected)draw()},120)});
+    const pc=o.querySelector('#pc');if(pc)pc.onclick=()=>o.remove();const pf=o.querySelector('#pf');if(pf)pf.onclick=()=>forgot(o,draw)};
+  draw()}
+let locked=false,hid=0;
+function lock(){if(!S.pin||locked)return;locked=true;pad('PIN-kodni kiriting',(c,api)=>{if(pinH(c)===S.pin){locked=false;sfx('ok');api.close()}else api.err()},false,(o,back)=>{o.innerHTML='<h1>Ma\'lumotlar o\'chadi</h1><p class="sub">PIN unutilgan bo\'lsa, ilovani qayta tiklash uchun barcha ma\'lumotlar o\'chiriladi.</p><button id="fy">Ha, o\'chirish</button><br><button class="g" id="fn2">Yo\'q, orqaga</button>';$('#fy').onclick=()=>{try{localStorage.removeItem(K)}catch(e){}location.reload()};$('#fn2').onclick=back})}
+function newPin(){let first=null;pad('Yangi PIN (4 raqam)',(c,api)=>{if(!first){first=c;api.title('PIN-ni qayta kiriting')}else if(c===first){S.pin=pinH(c);save();sfx('ok');api.close();render()}else{first=null;api.title('Yangi PIN (4 raqam)');api.err('Mos kelmadi, qaytadan kiriting')}},true)}
+function pinSet(){if(S.pin)pad('Joriy PIN-kod',(c,api)=>{if(pinH(c)===S.pin){api.close();newPin()}else api.err()},true);else newPin()}
+function pinOff(){pad('PIN-ni o\'chirish: joriy kod',(c,api)=>{if(pinH(c)===S.pin){S.pin='';save();sfx('ok');api.close();render()}else api.err()},true)}
+document.addEventListener('visibilitychange',()=>{if(document.hidden)hid=Date.now();else if(S.pin&&hid&&Date.now()-hid>15000)lock()});
+let lg=hello();
+function chk(){const n=day(),g=hello();if(n===T&&g===lg)return;lg=g;if(n!==T){T=n;if(S.water.d!==T){S.water={d:T,n:0};save()}}if(tab!=='focus')render()}
+setInterval(chk,30000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)chk()});
+render();lock();
+</script>
+</body>
+</html>
